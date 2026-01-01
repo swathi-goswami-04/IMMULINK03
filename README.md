@@ -3,6 +3,14 @@
 
 🚀 Live Demo: https://immulink-03.vercel.app/
 
+
+Screenshot:
+
+
+<img width="1919" height="863" alt="Screenshot 2026-01-01 195543" src="https://github.com/user-attachments/assets/2818673d-c883-44d0-819d-3b3a4d4553f6" />
+
+
+
 IMMULINK is a next-generation cold chain assurance platform built for vaccine and biomedical logistics.
 It integrates Blockchain, real-time IoT sensor data, and AI-driven analytics to ensure shipment integrity, regulatory compliance, and end-to-end transparency from manufacturer to patient.
 
