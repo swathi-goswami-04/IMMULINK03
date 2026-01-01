@@ -8,6 +8,10 @@ import { getContract } from "./blockchain/getContract.js";
 import { ethers } from "ethers";
 const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS;
 import AnimatedBackground from "./AnimatedBackground";
+import aiBg from "./assets/ai_bg.jpg";
+import bgDark from "./assets/bg-dark.png";
+import bgLight from "./assets/bg-light.png";
+import worldMap from "./assets/world_map.jpg";
 
 
 console.log("Using contract:", CONTRACT_ADDRESS);
@@ -46,7 +50,7 @@ const THEMES = {
   GLASS_HIGHLIGHT: 'rgba(138,79,255,0.12)',
 
   // NEW 🔥 Background image
-  BG_IMAGE: "/src/assets/bg-dark.png"
+  BG_IMAGE: {bgDark}
 },
 
     // High-contrast Light Theme (Kept original colors)
@@ -73,7 +77,7 @@ light: {
   GLASS_HIGHLIGHT: "rgba(195,155,211,0.12)",
 
   // NEW ✨ Background image
-  BG_IMAGE: "/src/assets/bg-light.png"
+  BG_IMAGE: {bgLight}
 }
   };
 
@@ -584,7 +588,7 @@ const AiImageModule = ({ COLORS }) => (
     <div className="w-full h-48 rounded-t-xl overflow-hidden relative">
         <img 
             // Updated placeholder for new color scheme
-            src="/src/assets/ai_bg.jpg" 
+            src={aiBg} 
             alt="AI Synthesis Lab Background" 
             className="w-full h-full object-cover" 
             onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/800x300/100C4D/FF0080?text=AI+Analysis+Center"; }}
@@ -609,7 +613,7 @@ const TraceabilityImageModule = ({ shipmentData, COLORS }) => (
         <div className="w-full h-64 rounded-xl overflow-hidden relative shadow-lg">
             <img 
                 // Updated placeholder for new color scheme
-                src="/src/assets/world_map.jpg" 
+                src={worldMap}
                 alt="Global Logistics Background" 
                 className="w-full h-full object-cover" 
                 onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/1200x400/05031E/00D4FF?text=COLD+CHAIN+LOGISTICS"; }}
