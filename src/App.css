@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@keyframes glowPulseBlue {
+  0% {
+    filter: drop-shadow(0 0 40px rgba(0, 140, 255, 0.8));
+  }
+  50% {
+    filter: drop-shadow(0 0 75px rgba(0, 180, 255, 1));
+  }
+  100% {
+    filter: drop-shadow(0 0 40px rgba(0, 140, 255, 0.8));
+  }
+}
+
+.animate-glowPulseBlue {
+  animation: glowPulseBlue 3s ease-in-out infinite;
+}
+
+@keyframes glowPulseViolet {
+  0%, 100% { filter: drop-shadow(0 0 30px rgba(138,43,226,0.8)); }
+  50% { filter: drop-shadow(0 0 60px rgba(138,43,226,1)); }
+}
+
+.animate-glowPulseViolet {
+  animation: glowPulseViolet 2s infinite ease-in-out;
+}
+
