@@ -1,16 +1,158 @@
-# React + Vite
+<h1 align="center">IMMULINK</h1>
+<p align="center"><strong>Secure Cold Chain Monitoring with Blockchain, IoT & AI</strong></p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo: https://immulink-03.vercel.app/
 
-Currently, two official plugins are available:
+IMMULINK is a next-generation cold chain assurance platform built for vaccine and biomedical logistics.
+It integrates Blockchain, real-time IoT sensor data, and AI-driven analytics to ensure shipment integrity, regulatory compliance, and end-to-end transparency from manufacturer to patient.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Key Features
+🔗 Blockchain-Based Traceability
 
-## React Compiler
+Immutable temperature logs stored on Ethereum
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tamper-proof audit trail for compliance and trust
 
-## Expanding the ESLint configuration
+Transparent verification for manufacturers, distributors, regulators, and consumers
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌡️ Real-Time IoT Monitoring
+
+Continuous temperature tracking
+
+Safe range enforcement (2°C – 8°C)
+
+Historical temperature logs with alert indicators
+
+🤖 AI Intelligence Suite
+
+Predictive Risk Analysis
+AI evaluates shipment data to identify potential product viability risks
+
+Automated Customer Response Drafting
+Generates professional, compliance-ready responses based on cold chain records
+
+Text-to-Speech Alerts
+Converts critical alerts into audio notifications for rapid action
+
+📊 Interactive Dashboard
+
+Live metrics for temperature, humidity, alerts, and blockchain verification
+
+Global shipment route visualization
+
+Predictive shipment health score
+
+Light & Dark theme support
+
+🏗️ System Architecture
+
+IoT Sensors
+↓
+Ethereum Smart Contracts
+↓
+Immutable Blockchain Ledger
+↓
+React Dashboard (Vite)
+↓
+AI Intelligence Engine
+
+🛠️ Tech Stack
+Frontend
+
+React
+
+Vite
+
+Tailwind CSS
+
+Lucide Icons
+
+Ethers.js
+
+Blockchain
+
+Ethereum
+
+Solidity
+
+MetaMask
+
+AI
+
+Google Gemini API
+
+Deployment
+
+Vercel
+
+📁 Project Structure
+
+src/
+assets/ — Images and UI assets
+blockchain/ — Smart contract connection logic
+contracts/ — ABI and contract artifacts
+components/ — Reusable UI components
+App.jsx — Main application logic
+index.css — Global styles
+
+⚙️ Environment Setup
+
+Create a .env file in the root directory:
+
+VITE_CONTRACT_ADDRESS = your_deployed_contract_address
+VITE_GEMINI_API_KEY = your_google_gemini_api_key
+
+⚠️ Never expose API keys or private keys in production.
+
+🚀 Local Development
+
+git clone https://github.com/your-username/immulink.git
+
+cd immulink
+npm install
+npm run dev
+
+🧪 Demo Batch IDs
+
+Use the following Batch IDs to explore the dashboard:
+
+IMMULINK-VX-4521-A
+IMMULINK-VX-7890-B
+IMMULINK-VX-1111-Z
+
+🎯 Use Cases
+
+Vaccine and pharmaceutical logistics
+
+Cold chain compliance monitoring
+
+Regulatory audits and quality assurance
+
+Secure healthcare supply chains
+
+🔮 Future Enhancements
+
+Live IoT hardware integration
+
+Role-based access control (Manufacturer / Distributor / Regulator)
+
+Advanced anomaly detection models
+
+Multi-chain blockchain support
+
+Automated compliance report generation
+
+👩‍💻 Author
+
+Swathi Goswami
+Charu Dharshana R
+Sandhya K B
+CSE Student | Blockchain & AI Enthusiast
+Project: IMMULINK
+
+📜 License
+
+This project is licensed under the MIT License.
+
+
+
