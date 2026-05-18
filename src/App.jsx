@@ -18,9 +18,9 @@ console.log("Using contract:", CONTRACT_ADDRESS);
 
 // --- GLOBAL CONFIGURATION & UTILITIES ---
 
-const GEMINI_MODEL = "gemini-2.0-flash";
+const GEMINI_MODEL = "gemini-2.5-flash-preview-09-2025";
 const TTS_MODEL = "gemini-2.5-flash-preview-tts";
-const API_KEY = "AIzaSyBmdWOqtWLQeTFwFdnTS9tpngk_MWV0XPk"; 
+const API_KEY = "AIzaSyCMeoUOhasYrlp2uA2uyLiIhBP8OzEbd4g"; 
 
 // --- THEME DEFINITIONS ---
 
