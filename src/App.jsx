@@ -20,7 +20,7 @@ console.log("Using contract:", CONTRACT_ADDRESS);
 
 const GEMINI_MODEL = "gemini-2.5-flash-preview-09-2025";
 const TTS_MODEL = "gemini-2.5-flash-preview-tts";
-const API_KEY = "AIzaSyCMeoUOhasYrlp2uA2uyLiIhBP8OzEbd4g"; 
+const API_KEY = "AIzaSyBmdWOqtWLQeTFwFdnTS9tpngk_MWV0XPk"; 
 
 // --- THEME DEFINITIONS ---
 
